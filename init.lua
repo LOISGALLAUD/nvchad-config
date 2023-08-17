@@ -2,7 +2,8 @@ require "core"
 
 vim.cmd [[
   call plug#begin('~/.config/nvim/plugged')
-
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'cpea2506/one_monokai.nvim'
   call plug#end()
 ]]
 
